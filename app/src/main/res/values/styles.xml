@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Hippo Seven
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+
+    <!-- TextAppearance -->
+    <style name="TextAppearance" parent="TextAppearance.AppCompat">
+    </style>
+
+    <style name="TextAppearance.CategoryTitle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/theme_accent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- FloatingActionButton -->
+    <style name="FloatingActionButton">
+        <item name="android:minWidth">@dimen/fab_size</item>
+        <item name="android:minHeight">@dimen/fab_size</item>
+    </style>
+
+    <style name="FloatingActionButton.Small">
+        <item name="android:minWidth">@dimen/fab_size_small</item>
+        <item name="android:minHeight">@dimen/fab_size_small</item>
+    </style>
+
+    <style name="FloatingActionButton.Content">
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:layout_marginLeft">@dimen/content_fab_margin_start</item>
+        <item name="android:layout_marginRight">@dimen/content_fab_margin_end</item>
+        <item name="android:layout_marginTop">@dimen/content_fab_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/content_fab_margin_bottom</item>
+    </style>
+
+    <!-- FloatLabelEditText -->
+    <style name="TextAppearance.FloatLabelEditText.Lable" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/float_label_edit_text_light</item>
+    </style>
+
+    <style name="TextAppearance.FloatLabelEditText.Lable.Single" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/secondary_text_dark</item>
+    </style>
+
+    <!-- CategoryText -->
+    <style name="CategoryText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/category_table_item_height</item>
+    </style>
+
+    <style name="CardButton">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:padding">@dimen/card_button_padding</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Progress Bar -->
+    <style name="ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_material</item>
+    </style>
+
+    <style name="ProgressBar.Small" parent="android:Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_small_material</item>
+    </style>
+
+    <style name="ProgressBar.Large" parent="android:Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/progress_large_material</item>
+    </style>
+
+    <style name="Text.Dialog.Title" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/primary_text_light</item>
+        <item name="android:textSize">@dimen/text_little_large</item>
+        <item name="android:text">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Dialog.Message" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/secondary_text_light</item>
+        <item name="android:textSize">@dimen/text_little_small</item>
+    </style>
+
+    <style name="Text.Button.SingleLine" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_button_text</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014-2015 Hippo Seven
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<!--
+    The standard opacity for an active icon on a light background is 54% (#8A000000).
+    An inactive icon, which is lower in the visual hierarchy, should have an
+    opacity of 26% (#42000000).
+
+    The standard opacity for an active icon on a dark background is 100% (#FFFFFF).
+    An inactive icon, which is lower in the visual hierarchy, should have an
+    opacity of 30% (#4DFFFFFF).
+ -->
+<resources>
+
+    <!-- Drawable -->
+    <color name="primary_drawable_light">#8a000000</color>
+    <color name="secondary_drawable_light">#42000000</color>
+    <color name="primary_drawable_dark">#ffffffff</color>
+    <color name="secondary_drawable_dark">#4dffffff</color>
+
+    <!-- Red -->
+    <color name="doujinshi">#fff44336</color>
+    <!-- Orange -->
+    <color name="manga">#ffff9800</color>
+    <!-- Yellow 700 -->
+    <color name="artist_cg">#ffFbc02d</color>
+    <!-- Green -->
+    <color name="game_cg">#ff4caf50</color>
+    <!-- Light Green -->
+    <color name="western">#ff8bc34a</color>
+    <!-- Blue -->
+    <color name="non_h">#ff2196f3</color>
+    <!-- Indigo -->
+    <color name="image_set">#ff3f51b5</color>
+    <!-- Purple -->
+    <color name="cosplay">#ff9c27b0</color>
+    <!-- Deep Purple 300 -->
+    <color name="asian_porn">#ff9575cd</color>
+    <!-- Pink 300 -->
+    <color name="misc">#fff06292</color>
+    <color name="unknown_bg">@android:color/black</color>
+
+    <color name="material_teal_500">#ff009688</color>
+    <color name="material_teal_700">#ff00796b</color>
+
+    <color name="material_deep_orange_500">#ffff5722</color>
+
+    <color name="material_orange_500">#ffff9800</color>
+
+    <color name="material_amber_500">#ffffc107</color>
+
+    <!-- Text -->
+    <color name="primary_text_light">#de000000</color>
+    <color name="secondary_text_light">#8a000000</color>
+    <color name="primary_text_dark">#deffffff</color>
+    <color name="secondary_text_dark">#61ffffff</color>
+
+    <!-- Background -->
+    <color name="background_dark">#ff303030</color>
+    <color name="background_light">#ffeeeeee</color>
+    <color name="background_light_card">#ffe1e1e0</color>
+
+    <color name="theme_primary">@color/material_teal_500</color>
+    <color name="theme_primary_dark">@color/material_teal_700</color>
+    <color name="theme_accent">#ffff6977</color>
+
+    <color name="search_category_background_color">@android:color/white</color>
+
+    <color name="shadow_light">#38000000</color>
+
+    <!-- Scroll View -->
+    <color name="scroll_view_indicator">#20000000</color>
+
+</resources>

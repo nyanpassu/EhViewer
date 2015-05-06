@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Hippo Seven
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+
+    <!-- Simple Dialog -->
+    <dimen name="simple_dialog_padding">16dp</dimen>
+    <dimen name="simple_dialog_fixed_width">320dp</dimen>
+    <dimen name="simple_dialog_body_padding_left">24dp</dimen>
+    <dimen name="simple_dialog_body_padding_right">24dp</dimen>
+    <dimen name="simple_dialog_body_padding_top">24dp</dimen>
+    <dimen name="simple_dialog_body_padding_bottom">20dp</dimen>
+    <dimen name="simple_dialog_title_content_gap">18dp</dimen>
+
+    <!-- Scroll View-->
+    <dimen name="scroll_view_indicator_height">1dp</dimen>
+
+    <!-- Search Bar -->
+    <dimen name="search_bar_padding_horizontal">8dp</dimen>
+    <dimen name="search_bar_padding_vertical">8dp</dimen>
+
+    <!-- Search Layout Space -->
+    <dimen name="search_layout_space">8dp</dimen>
+    <dimen name="search_layout_space_vertical">8dp</dimen>
+
+    <!-- Corner fab -->
+    <dimen name="corner_fab_padding_right">16dp</dimen>
+    <dimen name="corner_fab_padding_bottom">16dp</dimen>
+
+    <!-- Search Content -->
+    <dimen name="content_padding_start">0dp</dimen>
+    <dimen name="content_padding_end">0dp</dimen>
+    <dimen name="content_padding_top">0dp</dimen>
+    <dimen name="content_padding_bottom">72dp</dimen>
+    <dimen name="content_fab_margin_start">0dp</dimen>
+    <dimen name="content_fab_margin_end">@dimen/keyline_margin</dimen>
+    <dimen name="content_fab_margin_top">0dp</dimen>
+    <dimen name="content_fab_margin_bottom">@dimen/keyline_margin</dimen>
+
+    <!-- Search category -->
+    <dimen name="search_category_padding_start">16dp</dimen>
+    <dimen name="search_category_padding_end">16dp</dimen>
+    <dimen name="search_category_padding_bottom">8dp</dimen>
+    <dimen name="search_category_interval">8dp</dimen>
+    <dimen name="search_category_min_height">0dp</dimen>
+    <dimen name="search_category_title_height">48dp</dimen>
+
+    <!-- Search item -->
+    <dimen name="search_item_interval">8dp</dimen>
+    <dimen name="search_item_interval_half">4dp</dimen>
+    <dimen name="select_image_preview_min_height">120dp</dimen>
+    <dimen name="select_image_preview_max_height">240dp</dimen>
+    <dimen name="search_action_button_width">0dp</dimen>
+
+    <!-- Switch padding -->
+    <dimen name="switch_padding">8dp</dimen>
+
+    <!-- Keyline -->
+    <dimen name="keyline_margin">16dp</dimen>
+
+    <!-- AppBar -->
+    <dimen name="appbar_size">56dp</dimen>
+    <dimen name="appbar_height">@dimen/appbar_size</dimen>
+    <dimen name="appbar_shadow_height">8dp</dimen>
+    <dimen name="appbar_fab_margin_top">28dp</dimen>
+
+    <!-- CategoryTable -->
+    <dimen name="category_table_item_height">40dp</dimen>
+    <dimen name="category_table_item_margin_half">@dimen/search_item_interval_half</dimen>
+
+    <!-- AdvanceSearchTable -->
+    <dimen name="advance_search_table_item_margin_half">@dimen/search_item_interval_half</dimen>
+
+    <!-- CardButton -->
+    <dimen name="card_button_padding">8dp</dimen>
+
+    <!-- Default elevation -->
+    <dimen name="default_elevation">4dp</dimen>
+
+    <!-- Fab -->
+    <dimen name="fab_size">60dp</dimen>
+    <dimen name="fab_size_small">44dp</dimen>
+
+    <!-- DrawerArrowDrawable -->
+    <dimen name="dad_drawable_size">24dp</dimen>
+    <dimen name="dad_bar_size">18dp</dimen>
+    <dimen name="dad_top_bottom_bar_arrow_size">11.31dp</dimen>
+    <dimen name="dad_thickness">2dp</dimen>
+    <dimen name="dad_gap_between_bars">3dp</dimen>
+    <dimen name="dad_middle_bar_arrow_size">16dp</dimen>
+
+    <!-- AddDeleteDrawable -->
+    <dimen name="add_size">20dp</dimen>
+    <dimen name="add_thickness">2dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_super_large">24sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_little_large">20sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_little_small">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_super_small">12sp</dimen>
+
+</resources>

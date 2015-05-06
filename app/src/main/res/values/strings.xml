@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Hippo Seven
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+
+    <string name="app_name" translatable="false">EhViewer Test</string>
+
+    <!-- Start activity -->
+    <string name="tip_welcome" translatable="false">Do not be a\nsad pandroid</string>
+
+    <!-- Category -->
+    <string name="doujinshi" translatable="false">DOUJINSHI</string>
+    <string name="manga" translatable="false">MANGA</string>
+    <string name="artist_cg" translatable="false">ARTIST CG</string>
+    <string name="game_cg" translatable="false">GAME CG</string>
+    <string name="western" translatable="false">WESTERN</string>
+    <string name="non_h" translatable="false">NON-H</string>
+    <string name="image_set" translatable="false">IMAGE SET</string>
+    <string name="cosplay" translatable="false">COSPLAY</string>
+    <string name="asian_porn" translatable="false">ASIAN PORN</string>
+    <string name="misc" translatable="false">MISC</string>
+    <string name="unknown" translatable="false">UNKNOWN</string>
+
+    <!-- Search Bar -->
+    <string name="search_bar_hint">Search %s</string>
+
+    <!-- Search -->
+    <string name="search_normal">Normal Search</string>
+    <string name="search_advance">Advance Options</string>
+    <string name="search_tag">Tag Search</string>
+    <string name="search_image">Image Search</string>
+    <string name="search_specify_author">Specify uploader</string>
+    <string name="search_specify_tag">Specify tag</string>
+    <string name="search_hint_no_keyword">No keyword is OK</string>
+    <string name="search_enable_advance">Enable advance options</string>
+
+    <string name="search_sname">Search Gallery</string>
+    <string name="search_stags">Search Gallery Tags</string>
+    <string name="search_sdesc">Search Gallery Description</string>
+    <string name="search_storr">Search Torrent Filenames</string>
+    <string name="search_sto">Only Show Galleries With Torrents</string>
+    <string name="search_sdt1">Search Low-Power Tags</string>
+    <string name="search_sdt2">Search Downvoted Tags</string>
+    <string name="search_sh">Show Expunged Galleries</string>
+    <string name="search_sr">Minimum Rating:</string>
+
+    <string name="search_hint_tag">Tag</string>
+
+    <string name="search_select_image">Select image</string>
+
+    <string name="search_add">Add</string>
+    <string name="search_mode">Mode</string>
+
+    <string name="search_tag_help">Searching via specify tag is precise. One tag each searching. Searching format is &lt;tag&gt; or &lt;namespace&gt;:&lt;tag&gt;. Other searching options will be ignored when specify tag is checked.</string>
+
+    <!-- search_min_rating -->
+    <string name="star_2">2 stars</string>
+    <string name="star_3">3 stars</string>
+    <string name="star_4">4 stars</string>
+    <string name="star_5">5 stars</string>
+
+
+    <string name="keyword">Keyword</string>
+    <string name="search">Search</string>
+
+</resources>
